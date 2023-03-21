@@ -107,9 +107,9 @@ const Navigation = () => {
                       <Link
                         onClick={toggleNav}
                         onKeyDown={toggleNav}
-                        to="/products"
+                        to="/services"
                       >
-                        All Products
+                        All Services
                       </Link>
                     </li>
                     <hr />

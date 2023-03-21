@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `FUTURE MOVEMENT BEATZ`,
+    title: `FMB`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
