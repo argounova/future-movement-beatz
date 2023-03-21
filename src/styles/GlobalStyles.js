@@ -15,7 +15,8 @@ export const GlobalStyle = createGlobalStyle`
   --fmbPurple2: #780086;
   --fmbPurple3: #831DB2;
   --fmbPurple4: #FD99FA;
-  --fmbPurple5: #DC47EA;  
+  --fmbPurple5: #DC47EA;
+  --smokeDark: #08080A;  
 
   --bannerTitle: 34px;
   --borderSpacing: 30px;
@@ -237,8 +238,9 @@ blockquote {
 }
 
 .section {
-    background-color: var(--contrastDark1);
+    background-color: #242426;
     padding: 100px var(--borderSpacing);
+    color: #fff;
 
     &.section__padding {
         padding-top: var(--sectionMargin);

@@ -2,6 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layout"
 import Banner from "../components/Banner/index"
 import TextBanner from "../components/TextBanner/index"
+import PerksBanner from "../components/PerksBanner/index"
+import Perk from "../components/PerksBanner/perk"
 import { heading } from './index.module.css'
 
 const IndexPage = () => {
@@ -20,6 +22,9 @@ const IndexPage = () => {
         link="/services"
         linkText="View Services"
       />
+      <PerksBanner>
+        <Perk title="The Title" content="The content" />
+      </PerksBanner>
     </Layout>
   )
 }
