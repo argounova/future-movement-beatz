@@ -5,6 +5,7 @@ import TextBanner from "../components/TextBanner/index"
 import PerksBanner from "../components/PerksBanner/index"
 import Perk from "../components/PerksBanner/perk"
 import FeaturedServices from "../components/FeaturedServices/index"
+import LatestSingles from "../components/Singles/index"
 import { heading } from './index.module.css'
 
 const IndexPage = () => {
@@ -27,8 +28,12 @@ const IndexPage = () => {
         <Perk title="The Title" content="The content" />
       </PerksBanner>
       <FeaturedServices
-        title="Featured Products from Barcadia."
-        introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
+        title="Featured Services of FMB"
+        introduction="Let us help with your next album"
+      />
+      <LatestSingles
+        title="The Latest Singles from FMB"
+        introduction="Available to stream now on Spotify"
       />
     </Layout>
   )

@@ -1,6 +1,15 @@
 module.exports = {
   siteMetadata: {
     title: `FMB`,
+    description: "Marketing and promotional site for Future Movement Beatz",
+    author: "Craig Putzstuck",
+    tiktokUsername: "abstraktiusartimus",
+    youtubeUsername: "abstraktius_artimus",
+    instagramUsername: "abstraktius_artimus",
+    // image: "/macbook-color.jpg",
+    // siteUrl: "https://www.futuremovementbeatz.com",
+    developerName: "DM Solutions",
+    developerUrl: "https://www.digitalmotorsportsolutions.com",
   },
   plugins: [
     "gatsby-plugin-mdx",

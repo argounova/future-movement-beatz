@@ -7,6 +7,13 @@ export const UseSiteMetadata = () => {
         site {
           siteMetadata {
             title
+            description
+            author
+            tiktokUsername
+            developerName
+            developerUrl
+            youtubeUsername
+            instagramUsername
           }
         }
       }
@@ -15,13 +22,3 @@ export const UseSiteMetadata = () => {
 
   return site.siteMetadata
 }
-
-//             developerName
-//             developerUrl
-//             twitterUsername
-//             facebookUsername
-//             instagramUsername
-//             linkedinUsername
-//             author
-//             twitterUsername
-//             description

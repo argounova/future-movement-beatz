@@ -4,6 +4,7 @@ import {
   pageGradient,
 } from './index.module.css'
 import Navigation from '../Navigation/index'
+import Footer from "../Footer/index"
 import { GlobalStyle } from "../../styles/GlobalStyles"
 
 const Layout = ({ children }) => {
@@ -14,6 +15,7 @@ const Layout = ({ children }) => {
                     <div className={pageGradient}>
                         <Navigation />
                         {children}
+                        <Footer />
                     </div>
                 </main>  
         </>

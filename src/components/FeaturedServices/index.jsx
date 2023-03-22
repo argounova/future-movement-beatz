@@ -5,10 +5,18 @@ import { FeaturedProductStyles } from "./style"
 import { StaticImage } from "gatsby-plugin-image"
 import Button from "../Button/index"
 
-const FeaturedServices = () => {
+const FeaturedServices = ({ title, introduction }) => {
 
   return (
     <FeaturedProductsStyles className="section">
+      {title || introduction ? (
+        <div className="container container__tight">
+          <div className="intro__area">
+            {title && <h2>{title}</h2>}
+            {introduction && <p>{introduction}</p>}
+          </div>
+        </div>
+      ) : null}
       <div className="container container__tight container__scroll">
         <FeaturedProductStyles>
           <StaticImage

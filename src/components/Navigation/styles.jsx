@@ -27,7 +27,7 @@ export const Styles = styled.nav`
   }
 
   .menu {
-    background: linear-gradient(45deg, rgba(120,0,134,1) 0%, rgba(8,8,10,1) 50%);    
+    background-color: var(--smokeDark);    
     width: var(--menuWidth);
     transform: translateX(calc(var(--menuWidth) * -1));
     height: 100%;
