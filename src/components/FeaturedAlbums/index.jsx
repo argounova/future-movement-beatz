@@ -1,12 +1,12 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { PerksBannerStyles } from "./style"
+import { FeaturedAlbumsStyles } from "./style"
 import { MdOutlineClose as Cross } from "react-icons/md"
-import Perk from "./perk"
+import Album from "./album"
 
-const PerksBanner = () => {
+const FeaturedAlbums = () => {
   return (
-    <PerksBannerStyles className="section section__padding">
+    <FeaturedAlbumsStyles className="section section__padding">
       <StaticImage
         className="perks__image--bg"
         src="../../../static/smoke-background.jpg"
@@ -16,7 +16,7 @@ const PerksBanner = () => {
       />
       <div className="perks__image--overlay"></div>
       <div className="container container__tight">
-        <Perk
+        <Album
           title="Abstrakt Noize 3"
           content="Listen on Spotify"
         >
@@ -26,11 +26,11 @@ const PerksBanner = () => {
             layout="constrained"
             placeholder="tracedSVG"
           />
-        </Perk>
+        </Album>
         <span className="perks__divider">
           <Cross />
         </span>
-        <Perk
+        <Album
           title="Abstrakt Lofi"
           content="Listen on Spotify"
         >
@@ -40,10 +40,10 @@ const PerksBanner = () => {
             layout="constrained"
             placeholder="tracedSVG"
           />
-        </Perk>
+        </Album>
       </div>
-    </PerksBannerStyles>
+    </FeaturedAlbumsStyles>
   )
 }
 
-export default PerksBanner
+export default FeaturedAlbums

@@ -18,7 +18,6 @@ const LatestSingles = ({ title, introduction }) => {
             {introduction && <p>{introduction}</p>}
           </div>
         ) : null}
-
         <PostItems>
           <PostItem />
           <PostItem />

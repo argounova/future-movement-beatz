@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const PerksBannerStyles = styled.section`
+export const FeaturedAlbumsStyles = styled.section`
   background-color: #000;
   position: relative;
 
@@ -56,7 +56,7 @@ export const PerksBannerStyles = styled.section`
   }
 `
 
-export const PerkStyles = styled.aside`
+export const AlbumStyles = styled.aside`
   max-width: 275px;
   text-align: center;
 

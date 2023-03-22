@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 
 export const PostItemsStyles = styled.section`
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   gap: calc(var(--gap) / 2);
 
@@ -21,6 +20,8 @@ export const PostItemStyles = styled(Link)`
   border: 2px solid rgba(255, 255, 255, 0.15);
   border-radius: 6px;
   padding: 20px 10px;
+  overflow: hidden;
+
   display: flex;
   flex-direction: column;
   color: #fff;
@@ -45,9 +46,29 @@ export const PostItemStyles = styled(Link)`
   }
 
   @media (min-width: 1200px) {
-    width: calc(33.333% - 54px);
-    padding: 50px 30px;
+    flex-basis: 33.333%;
   }
+
+  .singles__item--img {
+    position: relative;
+    height: 0px;
+    width: 100%;
+    padding-bottom: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .singles__item--content {
+    width: 100%;
+    z-index: 2;
+    padding: 20px 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
 
   h4 {
     margin-top: 0;

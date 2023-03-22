@@ -1,13 +1,13 @@
 import * as React from "react"
-import { PerkStyles } from "./style"
+import { AlbumStyles } from "./style"
 
 const Perk = ({ children, title, content }) => {
   return (
-    <PerkStyles>
+    <AlbumStyles>
       {children}
       {title && <h3>{title}</h3>}
       {content && <p>{content}</p>}
-    </PerkStyles>
+    </AlbumStyles>
   )
 }
 

@@ -24,11 +24,11 @@ const FeaturedServices = ({ title, introduction }) => {
             src='../../images/album-artwork.jpeg'
             alt="album artwork"
           />
-            <div className="features__item--content">
-              <h4>Custom Album Artwork</h4>
-              <p>Let FMB design your next album cover</p>
-              <Button text="Read More" as="span" arrow={true} />
-            </div>
+          <div className="features__item--content">
+            <h4>Custom Album Artwork</h4>
+            <p>Let FMB design your next album cover</p>
+            <Button text="Read More" as="span" arrow={true} />
+          </div>
         </FeaturedProductStyles>
         <FeaturedProductStyles>
           <StaticImage

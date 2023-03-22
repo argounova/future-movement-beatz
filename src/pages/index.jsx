@@ -2,8 +2,8 @@ import * as React from "react"
 import Layout from "../components/Layout"
 import Banner from "../components/Banner/index"
 import TextBanner from "../components/TextBanner/index"
-import PerksBanner from "../components/PerksBanner/index"
-import Perk from "../components/PerksBanner/perk"
+import FeaturedAlbums from "../components/FeaturedAlbums/index"
+import Album from "../components/FeaturedAlbums/album"
 import FeaturedServices from "../components/FeaturedServices/index"
 import LatestSingles from "../components/Singles/index"
 import { heading } from './index.module.css'
@@ -16,7 +16,7 @@ const IndexPage = () => {
       </h1>
       <Banner
         title="Future Movement Beatz"
-        subTitle="Just an artist trying to make a living."
+        subTitle="Music production and custom album cover art."
       />
       <TextBanner
         title="It is important that the musician just lets the music be written."
@@ -24,9 +24,9 @@ const IndexPage = () => {
         link="/services"
         linkText="View Services"
       />
-      <PerksBanner>
-        <Perk title="The Title" content="The content" />
-      </PerksBanner>
+      <FeaturedAlbums>
+        <Album title="The Title" content="The content" />
+      </FeaturedAlbums>
       <FeaturedServices
         title="Featured Services of FMB"
         introduction="Let us help with your next album"
