@@ -11,7 +11,7 @@ const TextBanner = ({ title, content, link, linkText }) => {
           {title && <h2>{title}</h2>}
           {content && <p style={{ marginBottom: "60px" }}>{content}</p>}
 
-          <Button text={linkText} as={Link} to={link} />
+          <Button text={linkText} as={Link} to="/comingsoon" />
         </div>
       </div>
     </Styles>

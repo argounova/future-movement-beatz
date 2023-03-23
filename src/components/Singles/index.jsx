@@ -24,7 +24,7 @@ const LatestSingles = ({ title, introduction }) => {
           <PostItem />
         </PostItems>
         <div className="learn__more">
-          <Button text="All Singles" as={Link} to="/singles" />
+          <Button text="All Singles" as={Link} to="/comingsoon" />
         </div>
       </div>
     </div>

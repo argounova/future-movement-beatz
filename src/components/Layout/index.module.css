@@ -1,6 +1,5 @@
 .page-image {
     background-image: url('../../images/background-image.jpg');
-    background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
     margin: -8px;

@@ -12,7 +12,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <h1 className={heading}>
-        Coming Soon
+        Abstraktius Artimus
       </h1>
       <Banner
         title="Future Movement Beatz"

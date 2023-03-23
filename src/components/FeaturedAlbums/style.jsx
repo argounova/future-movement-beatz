@@ -57,8 +57,15 @@ export const FeaturedAlbumsStyles = styled.section`
 `
 
 export const AlbumStyles = styled.aside`
+  display: flex;
+  flex-direction: column;
   max-width: 275px;
   text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+  
 
   @media (min-width: 414px) {
     max-width: 325px;

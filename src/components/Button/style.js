@@ -13,7 +13,6 @@ export const Styles = styled.button`
   font-weight: 700;
   position: relative;
   padding-bottom: 15px;
-  align-self: flex-start;
   display: inline-flex;
   align-items: center;
 

@@ -57,7 +57,7 @@ const FeaturedServices = ({ title, introduction }) => {
 
       </div>
       <div className="container container__tight learn__more">
-        <Button as={Link} to="/services" text="All Services" />
+        <Button as={Link} to="/comingsoon" text="All Services" />
       </div>
     </FeaturedProductsStyles>
   )

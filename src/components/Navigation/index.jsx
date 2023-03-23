@@ -107,7 +107,7 @@ const Navigation = () => {
                       <Link
                         onClick={toggleNav}
                         onKeyDown={toggleNav}
-                        to="/services"
+                        to="/comingsoon"
                       >
                         All Services
                       </Link>
