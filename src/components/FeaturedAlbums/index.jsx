@@ -12,7 +12,7 @@ const FeaturedAlbums = () => {
         src="../../../static/smoke-background.jpg"
         alt="Perks Module"
         layout="constrained"
-        placeholder="tracedSVG"
+        placeholder="dominantColor"
       />
       <div className="perks__image--overlay"></div>
       <div className="container container__tight">
@@ -23,7 +23,6 @@ const FeaturedAlbums = () => {
           <StaticImage
             src="../../../static/abstrakt-noize-3.png"
             alt="Perk Image"
-            layout="constrained"
             placeholder="dominantColor"
           />
         </Album>

@@ -21,16 +21,14 @@ export const FeaturedAlbumsStyles = styled.section`
   }
 
   .perks__image--overlay {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .perks__divider {
     font-size: 25px;
     color: var(--primary);
 
-    @media (min-width: 1024px) {
-      font-size: 35px;
-    }
+    
   }
 
   > .container {
@@ -46,9 +44,7 @@ export const FeaturedAlbumsStyles = styled.section`
       justify-content: center;
     }
 
-    @media (min-width: 1024px) {
-      gap: calc(var(--gap) * 2);
-    }
+    
 
     @media (min-width: 1200px) {
       gap: calc(var(--gap) * 4);
@@ -75,9 +71,7 @@ export const AlbumStyles = styled.aside`
     flex: 1 1 50%;
   }
 
-  @media (min-width: 1024px) {
-    max-width: 400px;
-  }
+  
 
   h3 {
     display: inline-block;
@@ -87,28 +81,6 @@ export const AlbumStyles = styled.aside`
   p {
     margin-bottom: 0;
   }
-  .gatsby-image-wrapper {
-    width: 170px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto calc(var(--gap) / 2) auto;
-
-    @media (min-width: 375px) {
-      width: 200px;
-    }
-
-    @media (min-width: 1024px) {
-      width: 400px;
-      height: 400px;
-    }
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain !important;
-      object-position: center;
-    }
+  
   }
 `

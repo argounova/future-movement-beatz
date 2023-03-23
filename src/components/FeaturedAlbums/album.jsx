@@ -2,7 +2,7 @@ import * as React from "react"
 import { AlbumStyles } from "./style"
 import Button from "../Button/index"
 
-const Perk = ({ children, title, content }) => {
+const Album = ({ children, title, content }) => {
   return (
     <AlbumStyles>
       {children}
@@ -26,4 +26,4 @@ const Perk = ({ children, title, content }) => {
   )
 }
 
-export default Perk
+export default Album

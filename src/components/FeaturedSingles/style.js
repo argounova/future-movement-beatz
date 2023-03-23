@@ -24,7 +24,6 @@ export const FeaturedSinglesStyles = styled.section`
 
 export const FeaturedSingleStyles = styled.aside`
   min-height: 408px;
-  background-color: #000;
   flex: 0 0 80%;
   overflow: hidden;
   scroll-snap-align: center;
@@ -53,19 +52,15 @@ export const FeaturedSingleStyles = styled.aside`
   }
 
   .features__item--img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
+    position: relative;
+    height: 0px;
+    width: 100%;
+    padding-bottom: 100%;
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
 
   .features__item--content {
     width: 100%;
-    position: absolute;
-    z-index: 2;
     padding: 20px 10px;
     bottom: 0;
     left: 0;
@@ -94,13 +89,17 @@ export const FeaturedSingleStyles = styled.aside`
     }
 
     h4 {
-      color: #fff;
+      color: var(--fmbPurple4);
     }
 
     p {
       color: var(--bodyColor);
     }
   }
+
+    a {
+      text-decoration: none;
+    }
 
   &:hover {
     cursor: pointer;
