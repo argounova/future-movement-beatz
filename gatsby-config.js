@@ -6,7 +6,7 @@ module.exports = {
     tiktokUsername: "abstraktiusartimus",
     youtubeUsername: "abstraktius_artimus",
     instagramUsername: "abstraktius_artimus",
-    // image: "/macbook-color.jpg",
+    image: "/background1.jpg",
     // siteUrl: "https://www.futuremovementbeatz.com",
     developerName: "DM Solutions",
     developerUrl: "https://www.digitalmotorsportsolutions.com",

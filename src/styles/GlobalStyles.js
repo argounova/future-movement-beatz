@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
   --borderSpacing: 30px;
   --menuWidth: 100vw;
   --blockquote: 20px;
-  --background: #1b1b1b;
+  --background: #242426;
   --primary: #FD99FA;
   --bodyColor: #afc2cb;
   --inActive: #555;
@@ -239,7 +239,9 @@ blockquote {
 
 .section {
     background-color: #242426;
-    padding: 100px var(--borderSpacing);
+    margin-top: var(--sectionMargin);
+    margin-bottom: var(--sectionMargin);
+    padding: 0 var(--borderSpacing);
     color: #fff;
 
     &.section__padding {

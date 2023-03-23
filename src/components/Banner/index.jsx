@@ -1,10 +1,10 @@
 import * as React from "react"
 import { navigate } from "gatsby"
 import { Styles } from "./style"
-// import { StaticImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 import Button from "../Button/index"
 
-const Banner = ({ title, subTitle }) => {
+const Banner = ({ children, title, subTitle }) => {
   function scrollToArea() {
     navigate("#topContent")
   }
@@ -12,6 +12,18 @@ const Banner = ({ title, subTitle }) => {
   return (
     <>
       <Styles>
+      {children ? (
+          children
+        ) : (
+          <StaticImage
+            className="banner__image"
+            imgClassName="banner__image--content"
+            src="../../../static/background1.jpg"
+            alt="Banner Image"
+            layout="fullWidth"
+            placeholder="blurred"
+          />
+        )}
         <div className="container">
           <div className="banner__content">
             {title && <h1>{title}</h1>}

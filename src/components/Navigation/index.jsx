@@ -1,5 +1,6 @@
-import React, { useState } from "react"
+import React, { useContext, useState } from "react"
 import { Link } from "gatsby"
+import MenuContext from "../MenuContext"
 import { motion } from "framer-motion"
 import { menuItems } from "./constants"
 import { UseSiteMetadata } from "../../hooks/useSiteMetadata"
@@ -20,8 +21,7 @@ import {
 } from "./anim"
 
 const Navigation = () => {
-    const [isOpen, setNav] = useState(false)
-    
+    const [isOpen, setNav] = useContext(MenuContext)
     const [subNavIsOpen, setSubNav] = useState(false)
   
     const toggleNav = () => {

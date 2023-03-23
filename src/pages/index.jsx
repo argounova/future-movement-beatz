@@ -5,15 +5,11 @@ import TextBanner from "../components/TextBanner/index"
 import FeaturedAlbums from "../components/FeaturedAlbums/index"
 import Album from "../components/FeaturedAlbums/album"
 import FeaturedServices from "../components/FeaturedServices/index"
-import LatestSingles from "../components/Singles/index"
-import { heading } from './index.module.css'
+import FeaturedSingles from "../components/FeaturedSingles/index"
 
 const IndexPage = () => {
   return (
     <Layout>
-      <h1 className={heading}>
-        Abstraktius Artimus
-      </h1>
       <Banner
         title="Future Movement Beatz"
         subTitle="Music production and custom album cover art."
@@ -31,7 +27,7 @@ const IndexPage = () => {
         title="Featured Services of FMB"
         introduction="Let us help with your next album"
       />
-      <LatestSingles
+      <FeaturedSingles
         title="The Latest Singles from FMB"
         introduction="Available to stream now on Spotify"
       />

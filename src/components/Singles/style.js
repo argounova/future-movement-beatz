@@ -2,8 +2,25 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const PostItemsStyles = styled.section`
-  display: flex;
-  width: 100%;
+> div {
+  &.container__scroll {
+    gap: calc(var(--gap) / 2);
+    padding-bottom: var(--gap);
+    padding-left: var(--borderSpacing);
+    padding-right: var(--borderSpacing);
+    margin-left: calc(var(--borderSpacing) * -1);
+    width: calc(100% + (var(--borderSpacing) * 2));
+
+    @media (min-width: 1200px) {
+      padding-bottom: 0;
+      width: 100%;
+      margin-left: auto;
+      padding-left: 0;
+      padding-right: 0;
+      gap: var(--gap);
+    }
+  }
+}
   gap: calc(var(--gap) / 2);
 
   @media (min-width: 1200px) {
@@ -16,18 +33,19 @@ export const PostItemsStyles = styled.section`
 `
 
 export const PostItemStyles = styled(Link)`
-  flex: 0 0 100%;
-  border: 2px solid rgba(255, 255, 255, 0.15);
-  border-radius: 6px;
-  padding: 20px 10px;
-  overflow: hidden;
-
   display: flex;
   flex-direction: column;
-  color: #fff;
-  text-decoration: none;
+  min-height: 408px;
+  flex: 0 0 80%;
+  overflow: hidden;
+  scroll-snap-align: center;
+  scroll-margin-left: 25px;
+  position: relative;
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
   transition: border-color 0.6s ease, background-color 0.6s ease,
-    box-shadow 0.6s ease;
+  box-shadow 0.6s ease;
+  padding: 20px 10px;
 
   &:first-child {
     margin-top: 0;

@@ -24,7 +24,7 @@ const FeaturedAlbums = () => {
             src="../../../static/abstrakt-noize-3.png"
             alt="Perk Image"
             layout="constrained"
-            placeholder="tracedSVG"
+            placeholder="dominantColor"
           />
         </Album>
         <span className="perks__divider">
@@ -38,7 +38,7 @@ const FeaturedAlbums = () => {
             src="../../../static/abstrakt-lofi.png"
             alt="Perk Image"
             layout="constrained"
-            placeholder="tracedSVG"
+            placeholder="dominantColor"
           />
         </Album>
       </div>

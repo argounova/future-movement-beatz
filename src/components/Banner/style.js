@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Styles = styled.section`
-  height: 80vh;
+  height: 100vh;
   position: relative;
   padding: 30px var(--borderSpacing);
 
@@ -10,6 +10,24 @@ export const Styles = styled.section`
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
+  }
+
+  .gradient,
+  .banner__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .gradient {
+    background: radial-gradient(
+      at bottom left,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0)
+    );
   }
 
   .banner__content {
