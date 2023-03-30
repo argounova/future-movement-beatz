@@ -25,7 +25,7 @@ const FeaturedServices = ({ title, introduction }) => {
             alt="album artwork"
           />
           <div className="features__item--content">
-            <h4>Custom Album Artwork</h4>
+            <h4>Album Artwork</h4>
             <p>Let FMB design your next album cover</p>
             <Button text="Read More" as="span" arrow={true} />
           </div>
@@ -49,7 +49,7 @@ const FeaturedServices = ({ title, introduction }) => {
             alt="song writing"
           />
             <div className="features__item--content">
-              <h4>Song Writing</h4>
+              <h4>Custom Services</h4>
               <p>Need help with beats or melodies?  Look no further than FMB</p>
               <Button text="Read More" as="span" arrow={true} />
             </div>
