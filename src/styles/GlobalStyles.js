@@ -92,7 +92,6 @@ export const GlobalStyle = createGlobalStyle`
 
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
