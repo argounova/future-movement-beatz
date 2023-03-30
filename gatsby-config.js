@@ -7,7 +7,7 @@ module.exports = {
     youtubeUsername: "abstraktius_artimus",
     instagramUsername: "abstraktius_artimus",
     image: "/background1.jpg",
-    // siteUrl: "https://www.futuremovementbeatz.com",
+    siteUrl: "https://futuremovementbeatzmain.gatsbyjs.io/",
     developerName: "DM Solutions",
     developerUrl: "https://www.digitalmotorsportsolutions.com",
   },

@@ -9,6 +9,7 @@ export const UseSiteMetadata = () => {
             title
             description
             author
+            siteUrl
             tiktokUsername
             developerName
             developerUrl
