@@ -12,8 +12,11 @@ module.exports = {
     developerUrl: "https://www.digitalmotorsportsolutions.com",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     "gatsby-plugin-mdx",
     "gatsby-plugin-image",
+    `gatsby-plugin-styled-components`,
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp", 
     {
