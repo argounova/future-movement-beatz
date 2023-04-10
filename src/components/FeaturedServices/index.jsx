@@ -21,13 +21,13 @@ const FeaturedServices = ({ title, introduction }) => {
         <FeaturedProductStyles>
           <StaticImage
             className="features__item--img"
-            src='../../images/album-artwork.jpeg'
+            src='../../images/album-art.jpeg'
             alt="album artwork"
           />
           <div className="features__item--content">
             <h4>Album Artwork</h4>
-            <p>Let FMB design your next album cover</p>
-            <Button text="Read More" as="span" arrow={true} />
+            {/* <p>Let us design your next album cover</p> */}
+            <Button text="Learn More" as="span" arrow={true} />
           </div>
         </FeaturedProductStyles>
         <FeaturedProductStyles>
@@ -38,20 +38,20 @@ const FeaturedServices = ({ title, introduction }) => {
           />
             <div className="features__item--content">
               <h4>Track Production</h4>
-              <p>Professionally produced tracks and full length albums</p>
-              <Button text="Read More" as="span" arrow={true} />
+              {/* <p>Professionally produced tracks and full length albums</p> */}
+              <Button text="Learn More" as="span" arrow={true} />
             </div>
         </FeaturedProductStyles>
         <FeaturedProductStyles>
           <StaticImage
             className="features__item--img"
-            src='../../images/music-writing.jpeg'
+            src='../../images/mixing-services.jpeg'
             alt="song writing"
           />
             <div className="features__item--content">
-              <h4>Custom Services</h4>
-              <p>Need help with beats or melodies?  Look no further than FMB</p>
-              <Button text="Read More" as="span" arrow={true} />
+              <h4>Mixing and Mastering</h4>
+              {/* <p>Achieving that perfect sound</p> */}
+              <Button text="Learn More" as="span" arrow={true} />
             </div>
         </FeaturedProductStyles>
 
