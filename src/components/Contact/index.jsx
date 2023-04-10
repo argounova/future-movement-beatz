@@ -33,7 +33,7 @@ const Contact = () => {
     console.log('testing this function');
     console.log(form);
     console.log(form.current);
-    emailjs.sendForm('service_zylezuq', 'template_iuipk7c', form.current, 'ZElOBNy_cU2ZofiP0')
+    emailjs.sendForm('service_kb5ueuo', 'template_rtzya6p', form.current, '-rwhcmI-NaGlHpG5q')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
       }, (err) => {
