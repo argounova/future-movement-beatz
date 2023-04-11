@@ -33,14 +33,14 @@ const Footer = () => {
         {/* {allProduct.length > 0 && ( */}
           <FooterMenuStyles className="footer__menu products__menu">
             <h5>
-              <Link to="/comingsoon">
+              <Link to="/services/all">
                 All Services
               </Link>
             </h5>
             <ul>
-              <li>Custom Artwork</li>
-              <li>Music Production</li>
-              <li>Writing</li>
+              <li><Link to="/services/artwork">Album Artwork</Link></li>
+              <li><Link to="/services/production">Music Production</Link></li>
+              <li><Link to="/services/mixing">Mixing & Mastering</Link></li>
               {/* {allProduct.map((item, index) => {
                 const { gatsbyPath, title } = item
 

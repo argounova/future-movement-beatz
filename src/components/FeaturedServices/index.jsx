@@ -39,7 +39,7 @@ const FeaturedServices = ({ title, introduction }) => {
             <div className="features__item--content">
               <h4>Track Production</h4>
               {/* <p>Professionally produced tracks and full length albums</p> */}
-              <Button text="Learn More" as="span" arrow={true} />
+              <Button text="Learn More" as={Link} to="/services/production" arrow={true} />
             </div>
         </FeaturedProductStyles>
         <FeaturedProductStyles>
@@ -51,7 +51,7 @@ const FeaturedServices = ({ title, introduction }) => {
             <div className="features__item--content">
               <h4>Mixing and Mastering</h4>
               {/* <p>Achieving that perfect sound</p> */}
-              <Button text="Learn More" as="span" arrow={true} />
+              <Button text="Learn More" as={Link} to="/services/mixing" arrow={true} />
             </div>
         </FeaturedProductStyles>
 

@@ -42,6 +42,7 @@ const Banner = ({ children, title, subTitle, contact }) => {
             </div>
           </div>
         </div>
+        <div className="gradient"></div>
       </Styles>
       <span id="topContent"></span>
     </>
