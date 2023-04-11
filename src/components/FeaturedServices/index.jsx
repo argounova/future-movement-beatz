@@ -27,7 +27,7 @@ const FeaturedServices = ({ title, introduction }) => {
           <div className="features__item--content">
             <h4>Album Artwork</h4>
             {/* <p>Let us design your next album cover</p> */}
-            <Button text="Learn More" as="span" arrow={true} />
+            <Button text="Learn More" as={Link} to="/services/artwork" arrow={true} />
           </div>
         </FeaturedProductStyles>
         <FeaturedProductStyles>

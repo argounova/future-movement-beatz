@@ -14,6 +14,7 @@ const IndexPage = () => {
       <Banner
         title="Future Movement Beatz"
         subTitle="Music production and custom album cover art."
+        contact={false}
       />
       <TextBanner
         title="It is important that the musician just lets the music be written."
